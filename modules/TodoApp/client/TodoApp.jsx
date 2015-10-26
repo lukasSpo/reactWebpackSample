@@ -1,6 +1,7 @@
-import { Component, PropTypes } from 'react';
+import { Component, PropTypes } from 'react'
 
 export default class TodoApp extends Component {
+
   static propTypes = {
     children: PropTypes.any.isRequired
   }
@@ -10,10 +11,10 @@ export default class TodoApp extends Component {
   }
 
   render() {
-    return (
-      <div>
-        {this.props.children}
-      </div>
-    );
+  return (
+    <div>
+      {this.props.children}
+    </div>
+  );
   }
 }
