@@ -31,7 +31,9 @@
         "Security": false,
         "interact": false,
         "marked": false,
-        "Session": false
+        "Session": false,
+        "describe": false,
+        "it": false
     },
     "plugins": [
     ],
